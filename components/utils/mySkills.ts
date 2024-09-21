@@ -1,11 +1,11 @@
 export const skills = [
   {
     title: 'Languages',
-    techs: ['HTML', 'CSS', 'JavaScript', 'TypeScript']
+    techs: ['HTML', 'CSS', 'JavaScript', 'TypeScript','Go','Java']
   },
   {
     title: 'Frameworks and libraries',
-    techs: ['jQuery', 'Angular', 'React', 'Next.js', 'Ionic', 'Electron.js']
+    techs: [ 'Angular', 'React', 'Next.js', 'Swagger','Migrate']
   },
   {
     title: 'JavaScript libraries',
@@ -13,15 +13,15 @@ export const skills = [
   },
   {
     title: 'Preprocessors, css style, component and motion libraries',
-    techs: ['Pug', 'Scss', 'Sass', 'Less', 'Bootstrap', 'Tailwind', 'ChakraUI', 'MaterialUI', 'NextUI', 'Framer Motion']
+    techs: ['Scss', 'Sass',  'Bootstrap', 'Tailwind', 'ChakraUI', 'MaterialUI', 'NextUI', 'Framer Motion']
   },
   {
     title: 'Backend stack',
-    techs: ['noSQL', 'Node.js', 'Express.js', 'MongoDB', 'Postman', 'Firebase', 'Sanity CMS']
+    techs: ['noSQL', 'Node.js', 'Express.js', 'MongoDB', 'Postman', 'Firebase']
   },
   {
     title: 'Softwares and tools',
-    techs: ['VS Code', 'Jira', 'Git', 'GitHub', 'Bitbucket', 'ESLint', 'Husky', 'Figma', 'Photoshop', 'WordPress', 'Elementor']
+    techs: ['VS Code', 'Jira', 'Git', 'GitHub', 'WordPress', 'Elementor']
   },
   {
     title: 'Agile methodologies and coding principles',
@@ -29,6 +29,6 @@ export const skills = [
   },
   {
     title: 'Currently or interest in learning...',
-    techs: ['SQL', 'Nest', 'GraphQL', 'PostgreSQL', 'Socket.IO', 'Linux', 'AWS', 'Docker', 'Kubernetes', 'CI/CD', 'Terraform', 'Jenkins']
+    techs: ['SQL', 'Nest', 'GraphQL', 'PostgreSQL', 'Socket.IO', 'Linux', 'Docker', 'Kubernetes', 'CI/CD', ]
   }
 ];

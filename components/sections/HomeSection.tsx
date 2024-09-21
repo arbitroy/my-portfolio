@@ -2,7 +2,7 @@ import AboutMe from '../content/AboutMe';
 import ContactMe from '../content/ContactMe';
 import CurrentFavTech from '../content/CurrentFavTech';
 import CurrentLearning from '../content/CurrentLearning';
-import CurrentTimeLineExp, { calculateDuration } from '../content/CurrentTimeLineExp';
+import CurrentTimeLineExp from '../content/CurrentTimeLineExp';
 import FavProjects from '../content/FavProjects';
 import Hero from '../content/Hero';
 import AnimationContainer from '../utils/AnimationContainer';
@@ -32,12 +32,12 @@ const HomeSection = () => {
           <h2 className='font-bold text-2xl md:text-2xl tracking-tight mb-2 text-white text-start'>Skills</h2>
 
           <p className='text-base text-gray-400'>
-            A look at all the programming languages, libraries, and tools I've worked with, I started programming about +{calculateDuration('2020-01-01', false)} ago. I have tried a few programming languages and technology stack, both Backend and Frontend.
+            As a seasoned developer, I've transitioned from a dedicated student to a proficient problem solver with a background in computer science. I leverage a variety of programming languages and tools to architect robust and scalable solutions for diverse challenges.
+            My experience spans across multiple projects and engagements, where I've honed my skills in software development through academic pursuits, extracurricular activities, and professional endeavors. In addition to my technical expertise, I bring a track record of excellence, including achievements such as the Presidential Award and involvement with organizations like St. John.
+            Balancing freelance projects with employment commitments, I navigate a dynamic career path, dedicated to delivering high-quality, tailored solutions to clients and employers alike.
           </p>
 
-          <p className='text-base text-gray-400'>
-            Event though the scope of web development is wide, I was very interested and focused on Frontend development.
-          </p>
+
 
           <div className='flex flex-col items-start gap-3 mt-3'>
 

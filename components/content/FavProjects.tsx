@@ -79,55 +79,22 @@ const Card = ({ image, title, category, repo, link }: CardProps) => {
 const favProjects = [
   {
     image:
-      'https://cdn.sanity.io/images/jqaxrty6/production/587bf66c35c35c26dc6c20d85e9166d236227e29-1440x806.png',
-    title: 'MapsApp',
-    category: 'React - Context - TypeScript - CSS - Mapbox',
-    repo: 'https://github.com/jeandv/maps-app',
-    link: 'https://mapsapp.vercel.app'
-  },
-  {
-    image:
-      'https://cdn.sanity.io/images/jqaxrty6/production/9d452c28dc252302b90e6e2408b81ce3ed111957-1440x803.png',
-    title: 'OpenJira',
-    category: 'Next.js - Context - TypeScript - Node - MongoDB - MaterialUI',
-    repo: 'https://github.com/jeandv/open-jira',
-    link: 'https://open-jira-jeandv.vercel.app'
-  },
-  {
-    image:
-      'https://cdn.sanity.io/images/jqaxrty6/production/bb12572785fdc98c304ff9823cab3f60bc16f8b7-1422x809.png',
-    title: 'Github Issues',
-    category: 'React - React Query - TypeScript - Bootstrap',
-    repo: 'https://github.com/jeandv/react-query',
-    link: 'https://github.com/jeandv/react-query'
-  },
-  {
-    image:
-      'https://cdn.sanity.io/images/jqaxrty6/production/0844f66435c099fb020b8235657491a3166bd713-1280x800.png',
-    title: 'ISR Pokedex',
-    category: 'Next.js - TypeScript - NextUI - Pokeapi',
-    repo: 'https://github.com/jeandv/pokedex-next',
-    link: 'https://pokedex-jeandv.vercel.app'
-  },
-  {
-    image:
-      'https://cdn.sanity.io/images/jqaxrty6/production/5d3fb4c2893e2ab9a3667431696b0789f004177f-1428x807.png',
-    title: 'MisPelis',
+      'https://private-user-images.githubusercontent.com/71763901/369642121-9982bf63-a2ed-4a83-8e77-1912c34b29f1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjY5NDQ3MDcsIm5iZiI6MTcyNjk0NDQwNywicGF0aCI6Ii83MTc2MzkwMS8zNjk2NDIxMjEtOTk4MmJmNjMtYTJlZC00YTgzLThlNzctMTkxMmMzNGIyOWYxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTIxVDE4NDY0N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRlOWUxOWU5YmE5OWVlZTAzZjRmYjYwN2MzMGNhM2ZmOTQxZDNlNDg4MTEzMzIwOWY3MjFjNWNkNTFiYTU1N2QmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Z2bWdlbar9jxMvCDbBRUGBunzERdtZc1pLBWQLdKux4',
+    title: 'Myusiki',
     category: 'React - JavaScript - CSS',
-    repo: 'https://mispelis.vercel.app',
-    link: 'https://github.com/jeandv/mispelis'
+    repo: 'https://myusiki.org/',
+    link: 'https://github.com/arbitroy/myusiki'
   },
   {
     image:
-      'https://cdn.sanity.io/images/jqaxrty6/production/32f71c8c2225276c64e64ce86777c3df09a878e6-1426x807.png',
-    title: 'Gixfy',
-    category: 'React - JavaScript - Jest - Wouter',
-    repo: 'https://gixfy.vercel.app',
-    link: 'https://github.com/jeandv/gixfy'
+      'https://private-user-images.githubusercontent.com/71763901/349064064-516b9374-bd67-4813-baab-18963a36ed47.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjY5NDQ0MDQsIm5iZiI6MTcyNjk0NDEwNCwicGF0aCI6Ii83MTc2MzkwMS8zNDkwNjQwNjQtNTE2YjkzNzQtYmQ2Ny00ODEzLWJhYWItMTg5NjNhMzZlZDQ3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTIxVDE4NDE0NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ2N2UzYmI0MGJlNTFiNDI3MjgyODViY2Y0Y2QyMjU1ZGRjN2FhOGVmOWNiNzk5YWM2YjcwMmE4Njc0NjNkMWUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.nkluuiVW_rd9jzXlQF4b8HFsXUxniZdHJBHYMeAndkE',
+    title: 'Lunar Explorer',
+    category: 'java-javafx',
+    repo: 'https://github.com/arbitroy/lunar_explorer',
+    link: 'https://github.com/arbitroy/lunar_explorer'
   }
 ];
 
-const myGithub = 'https://github.com/jeandv';
 
 const FavProjects = () => {
 
