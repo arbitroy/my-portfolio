@@ -79,7 +79,7 @@ const Card = ({ image, title, category, repo, link }: CardProps) => {
 const favProjects = [
   {
     image:
-      'https://private-user-images.githubusercontent.com/71763901/369642121-9982bf63-a2ed-4a83-8e77-1912c34b29f1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjY5NDQ3MDcsIm5iZiI6MTcyNjk0NDQwNywicGF0aCI6Ii83MTc2MzkwMS8zNjk2NDIxMjEtOTk4MmJmNjMtYTJlZC00YTgzLThlNzctMTkxMmMzNGIyOWYxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTIxVDE4NDY0N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRlOWUxOWU5YmE5OWVlZTAzZjRmYjYwN2MzMGNhM2ZmOTQxZDNlNDg4MTEzMzIwOWY3MjFjNWNkNTFiYTU1N2QmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Z2bWdlbar9jxMvCDbBRUGBunzERdtZc1pLBWQLdKux4',
+      'https://i.imgur.com/wU0HE80.png',
     title: 'Myusiki',
     category: 'React - JavaScript - CSS',
     repo: 'https://myusiki.org/',
@@ -87,7 +87,7 @@ const favProjects = [
   },
   {
     image:
-      'https://private-user-images.githubusercontent.com/71763901/349064064-516b9374-bd67-4813-baab-18963a36ed47.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjY5NDQ0MDQsIm5iZiI6MTcyNjk0NDEwNCwicGF0aCI6Ii83MTc2MzkwMS8zNDkwNjQwNjQtNTE2YjkzNzQtYmQ2Ny00ODEzLWJhYWItMTg5NjNhMzZlZDQ3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTIxVDE4NDE0NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ2N2UzYmI0MGJlNTFiNDI3MjgyODViY2Y0Y2QyMjU1ZGRjN2FhOGVmOWNiNzk5YWM2YjcwMmE4Njc0NjNkMWUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.nkluuiVW_rd9jzXlQF4b8HFsXUxniZdHJBHYMeAndkE',
+      'https://i.imgur.com/sIwCCp4.png',
     title: 'Lunar Explorer',
     category: 'java-javafx',
     repo: 'https://github.com/arbitroy/lunar_explorer',
