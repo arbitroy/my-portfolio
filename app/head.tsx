@@ -23,8 +23,8 @@ const Head = () => {
       <meta name='robots' content='follow, index' />
       <meta content={meta.description} name='description' />
       <meta name='keywords' content={meta.keywords} />
-      <meta property='og:url' content={`https://arbitroy.vercel.app${pathname}`} />
-      <link rel='canonical' href={`https://arbitroy.vercel.app${pathname}`} />
+      <meta property='og:url' content={`https://austine-portfolio.vercel.app${pathname}`} />
+      <link rel='canonical' href={`https://austine-portfolio.vercel.app${pathname}`} />
       <link rel='me' href='mailto:austinndauwa@gmail.com' />
       <meta property='og:type' content={meta.type} />
       <meta property='og:site_name' content='Austine Ndauwa' />
