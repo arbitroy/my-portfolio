@@ -18,7 +18,7 @@ const allProjectsInfo = [
     id: '2',
     title: 'Hungrima store management system',
     des: 'This an automation of the previous ledgerbook method to an efficient and increasing productivity',
-    category: 'Java - JavaFx - MaterialFx - SQlite',
+    category: 'java - javaFx - materialFx - sqlite',
     repo: 'https://github.com/arbitroy/HUNGRIMA-STORE',
     link: 'https://github.com/arbitroy/HUNGRIMA-STORE'
   },
@@ -26,7 +26,7 @@ const allProjectsInfo = [
     id: '3',
     title: 'FashionFushion',
     des: 'An ecommerce platform for tailors',
-    category: 'React Native - Pesapal - Firebase - expressjs',
+    category: 'react Native - pesapal - firebase - expressjs',
     repo: 'https://github.com/arbitroy/FashionFushion',
     link: 'https://expo.dev/accounts/austine_ndauwa/projects/fashion-fushion/builds/dd669812-81aa-4647-bb62-59bbf7bac522'
   },
@@ -50,11 +50,18 @@ const allProjectsInfo = [
     id: '6',
     title: 'Whatsapp_parser',
     des: 'A lifesaver that automatically scoops up your daily confessions from WhatsApp, like "Today, I sold my soul pushing spreadsheets and pretending to care about Steve\'s new \'game-changing\' idea." It\'s your personal log of corporate servitude, perfect for remembering exactly how much of your sanity you\'ve sacrificed for the company\'s bottom line—one chat at a time!',
-    category: 'Go',
+    category: 'go',
     repo: 'https://github.com/arbitroy/whatsapp_parser',
     link: 'https://github.com/arbitroy/whatsapp_parserhttps://mapsapp.vercel.app'
   },
- 
+    {
+      id: '7',
+      title: 'Tabata timer',
+      des: 'The Tabata Timer is a simple, customizable workout timer built using React, Vite, and Ele,ctron. It allows users to time their high-intensity interval training (HIIT) exercises, particularly suited for Tabata-style workouts.',
+      category:'electron - vite - react',
+      repo: 'https://github.com/arbitroy/Tabata-timer',
+      link : 'https://github.com/arbitroy/Tabata-timer'
+    }
 ];
 
 const SearchAllProjects = () => {

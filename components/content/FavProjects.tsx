@@ -92,6 +92,13 @@ const favProjects = [
     category: 'java-javafx',
     repo: 'https://github.com/arbitroy/lunar_explorer',
     link: 'https://github.com/arbitroy/lunar_explorer'
+  },
+  {
+    image: 'https://i.imgur.com/kXNerZ6.png',
+    title: 'Tabata timer',
+    category:'Electron - Vite - React',
+    repo: 'https://github.com/arbitroy/Tabata-timer',
+    link : 'https://github.com/arbitroy/Tabata-timer'
   }
 ];
 
