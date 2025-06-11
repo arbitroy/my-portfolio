@@ -16,6 +16,7 @@ export interface GitHubRepo {
   archived: boolean;
   disabled: boolean;
   visibility: string;
+  fork: boolean;
 }
 
 export interface ProjectData {

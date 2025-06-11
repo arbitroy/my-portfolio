@@ -76,7 +76,7 @@ export class EnhancedGitHubService extends GitHubService {
     return this.sortProjects(projects);
   }
 
-  private isFeaturedProject(repo: GitHubRepo): boolean {
+  protected isFeaturedProject(repo: GitHubRepo): boolean {
     // Check if explicitly featured in config
     if (this.config.github.featuredRepos?.includes(repo.name)) {
       return true;

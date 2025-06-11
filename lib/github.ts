@@ -1,4 +1,3 @@
-import { useGitHubProjects } from '@/hooks/useGitHubProjects';
 import { GitHubRepo, ProjectData } from '@/types/github';
 
 export class GitHubService {
@@ -85,14 +84,14 @@ export class GitHubService {
     });
   }
 
-  private formatTitle(repoName: string): string {
+  protected formatTitle(repoName: string): string {
     return repoName
       .split(/[-_]/)
       .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
       .join(' ');
   }
 
-  private formatCategory(
+  protected formatCategory(
     languages: Record<string, number>,
     topics: string[]
   ): string {
@@ -101,7 +100,7 @@ export class GitHubService {
     return techs.join(' - ').toLowerCase();
   }
 
-  private isFeaturedProject(repo: GitHubRepo): boolean {
+  protected isFeaturedProject(repo: GitHubRepo): boolean {
     // Define criteria for featured projects
     const featuredKeywords = ['portfolio', 'webapp', 'fullstack', 'important'];
     const hasKeyword = featuredKeywords.some(
