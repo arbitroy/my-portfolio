@@ -10,7 +10,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "sync:projects": "node scripts/sync-projects.js sync",
+    "sync:projects:init": "node scripts/sync-projects.js init",
+    "prebuild": "npm run sync:projects"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -41,6 +44,7 @@
     "autoprefixer": "^10.4.13",
     "eslint": "^8.32.0",
     "eslint-config-next": "^13.1.4",
+    "husky": "^9.1.7",
     "postcss": "^8.4.21",
     "postcss-preset-env": "^7.8.3",
     "prettier": "^2.8.3"

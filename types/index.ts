@@ -37,3 +37,5 @@ export interface CardProjectProps {
   repo: string;
   link: string;
 }
+
+export * from './github';
