@@ -11,9 +11,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "sync:projects": "node scripts/sync-projects.js sync",
-    "sync:projects:init": "node scripts/sync-projects.js init",
-    "prebuild": "npm run sync:projects"
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",

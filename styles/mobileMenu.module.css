@@ -49,7 +49,7 @@
   opacity: 1;
 }
 
-.menu>*+* {
+.menu > * + * {
   margin-top: 24px;
 }
 

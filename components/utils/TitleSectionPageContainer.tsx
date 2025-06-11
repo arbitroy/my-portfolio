@@ -6,8 +6,8 @@ const animation = {
   hide: { y: -12, opacity: 0 },
   show: {
     y: 0,
-    opacity: 1,
-  },
+    opacity: 1
+  }
 };
 
 const TitleSectionPageContainer = ({ title }: { title: string }) => {
@@ -17,11 +17,11 @@ const TitleSectionPageContainer = ({ title }: { title: string }) => {
       animate={animation.show}
       transition={{ delay: 0.5 }}
     >
-      <h2 className='font-bold text-4xl md:text-5xl tracking-tight mb-8 text-white text-center'>
+      <h2 className="font-bold text-4xl md:text-5xl tracking-tight mb-8 text-white text-center">
         {title}
       </h2>
     </motion.div>
-  )
-}
+  );
+};
 
 export default TitleSectionPageContainer;

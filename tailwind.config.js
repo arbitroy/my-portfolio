@@ -20,7 +20,7 @@ module.exports = {
         }
       },
       fontFamily: {
-        sans: ['var(--font-graphik)'],
+        sans: ['var(--font-graphik)']
       },
       typography: (theme) => ({
         DEFAULT: {
@@ -43,11 +43,9 @@ module.exports = {
             'blockquote p:first-of-type::before': false,
             'blockquote p:last-of-type::after': false
           }
-        },
+        }
       })
     }
   },
-  plugins: [
-    require('@tailwindcss/typography')
-  ]
+  plugins: [require('@tailwindcss/typography')]
 };

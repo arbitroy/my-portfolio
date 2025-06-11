@@ -11,47 +11,42 @@ const graphik = local({
     {
       path: '../../public/fonts/Graphik-Regular.ttf',
       weight: '400',
-      style: 'normal',
+      style: 'normal'
     },
     {
       path: '../../public/fonts/Graphik-Medium.ttf',
       weight: '600',
-      style: 'bold',
-    },
+      style: 'bold'
+    }
   ],
   variable: '--font-graphik',
-  display: 'swap',
+  display: 'swap'
 });
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html
-      lang='en'
+      lang="en"
       className={clsx(
         'text-black bg-white dark:text-white dark:bg-[#111010]',
         graphik.variable
       )}
     >
-
       <Head />
 
-      <body className='bg-[#080809] transition ease'>
-
+      <body className="bg-[#080809] transition ease">
         <Header />
 
-        <main className='flex flex-col justify-center items-center mx-auto'>
-
+        <main className="flex flex-col justify-center items-center mx-auto">
           <FlareCursor />
 
           {children}
-
         </main>
 
         <Footer />
-
       </body>
     </html>
-  )
-}
+  );
+};
 
 export default RootLayout;

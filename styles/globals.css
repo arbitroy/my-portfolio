@@ -2,11 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-html,body {
+html,
+body {
   scroll-behavior: smooth;
 }
 
-body, * {
+body,
+* {
   box-sizing: content-box;
   cursor: none;
 }

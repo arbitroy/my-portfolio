@@ -36,41 +36,33 @@ const myWorkProcess = [
     title: 'Migration',
     des: 'You are done. Congratulations, you have a website created by me. You will also have the option to hire my web maintenance service, so that it is always updated and ready.',
     delay: 0.8
-  },
+  }
 ];
 
 const ProcessWork = () => {
   return (
-    <AnimationContainer customClassName='w-full mb-4'>
-
-      <h2 className='font-bold text-2xl md:text-2xl tracking-tight mb-12 text-white text-start'>
+    <AnimationContainer customClassName="w-full mb-4">
+      <h2 className="font-bold text-2xl md:text-2xl tracking-tight mb-12 text-white text-start">
         My work process
       </h2>
 
-      <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8 mx-auto'>
-        {
-          myWorkProcess.map(({ id, title, des, delay }) => (
-            <AnimationContainer
-              key={id}
-              customClassName='rounded border border-gray-800 hover:border-gray-900 bg-[#080809] p-4 shadow-sm hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] sm:p-6 transition ease'
-              customDelay={delay}
-            >
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8 mx-auto">
+        {myWorkProcess.map(({ id, title, des, delay }) => (
+          <AnimationContainer
+            key={id}
+            customClassName="rounded border border-gray-800 hover:border-gray-900 bg-[#080809] p-4 shadow-sm hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] sm:p-6 transition ease"
+            customDelay={delay}
+          >
+            <h3 className="font-bold text-1xl tracking-tight text-white text-start">
+              {title}
+            </h3>
 
-              <h3 className='font-bold text-1xl tracking-tight text-white text-start'>
-                {title}
-              </h3>
-
-              <p className='mt-2 text-base text-gray-400'>
-                {des}
-              </p>
-
-            </AnimationContainer>
-          ))
-        }
+            <p className="mt-2 text-base text-gray-400">{des}</p>
+          </AnimationContainer>
+        ))}
       </div>
-
     </AnimationContainer>
-  )
-}
+  );
+};
 
 export default ProcessWork;

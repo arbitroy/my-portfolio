@@ -7,13 +7,13 @@ const animation = {
   hide: { y: -8, opacity: 0 },
   show: {
     y: 0,
-    opacity: 1,
-  },
+    opacity: 1
+  }
 };
 
-const HeaderAnimation = ({ children }: { children: React.ReactNode; }) => {
-
-  const classNames = (...classes: string[]) => classes.filter(Boolean).join(' ');
+const HeaderAnimation = ({ children }: { children: React.ReactNode }) => {
+  const classNames = (...classes: string[]) =>
+    classes.filter(Boolean).join(' ');
 
   const scrollPosition = useScrollPosition();
 
@@ -29,7 +29,7 @@ const HeaderAnimation = ({ children }: { children: React.ReactNode; }) => {
     >
       {children}
     </motion.header>
-  )
-}
+  );
+};
 
 export default HeaderAnimation;

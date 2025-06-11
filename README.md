@@ -8,7 +8,7 @@ I also use in web, mobile and desktop development Next.js, Angular, Ionic and El
 
 I am currently learning the way to be a DevOps, the reason why I am interested in this area is to know something different from programming and at the same time very useful in the present and in the future, in short I take it as an investment in myself in case I have a job that requires this skill.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ## Autor 🤠
 
@@ -46,7 +46,7 @@ I am currently learning the way to be a DevOps, the reason why I am interested i
 
 ✔ If you want to contact me you can write me to jeanrdev@gmail.com or to my [LinkedIn](https://www.linkedin.com/in/jeandv/) for inquiries or you can also talk to me by [Whatsapp](https://walink.co/2369d5)
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -86,4 +86,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-"# my-portfolio" 
+"# my-portfolio"

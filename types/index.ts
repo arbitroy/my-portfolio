@@ -18,7 +18,7 @@ export interface NavItemHeaderAnimation {
 }
 
 export interface NavItemProps {
-  href: string,
+  href: string;
   text: string;
 }
 

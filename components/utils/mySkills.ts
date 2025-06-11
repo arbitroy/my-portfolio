@@ -1,11 +1,11 @@
 export const skills = [
   {
     title: 'Languages',
-    techs: ['HTML', 'CSS', 'JavaScript', 'TypeScript','Go','Java']
+    techs: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Go', 'Java']
   },
   {
     title: 'Frameworks and libraries',
-    techs: [ 'Angular', 'React', 'Next.js', 'Swagger','Migrate']
+    techs: ['Angular', 'React', 'Next.js', 'Swagger', 'Migrate']
   },
   {
     title: 'JavaScript libraries',
@@ -13,7 +13,16 @@ export const skills = [
   },
   {
     title: 'Preprocessors, css style, component and motion libraries',
-    techs: ['Scss', 'Sass',  'Bootstrap', 'Tailwind', 'ChakraUI', 'MaterialUI', 'NextUI', 'Framer Motion']
+    techs: [
+      'Scss',
+      'Sass',
+      'Bootstrap',
+      'Tailwind',
+      'ChakraUI',
+      'MaterialUI',
+      'NextUI',
+      'Framer Motion'
+    ]
   },
   {
     title: 'Backend stack',
@@ -25,10 +34,27 @@ export const skills = [
   },
   {
     title: 'Agile methodologies and coding principles',
-    techs: ['GitFlow', 'SCRUM', 'Clean Code', 'SOLID', 'Clean Architecture', 'Pixel perfect']
+    techs: [
+      'GitFlow',
+      'SCRUM',
+      'Clean Code',
+      'SOLID',
+      'Clean Architecture',
+      'Pixel perfect'
+    ]
   },
   {
     title: 'Currently or interest in learning...',
-    techs: ['SQL', 'Nest', 'GraphQL', 'PostgreSQL', 'Socket.IO', 'Linux', 'Docker', 'Kubernetes', 'CI/CD', ]
+    techs: [
+      'SQL',
+      'Nest',
+      'GraphQL',
+      'PostgreSQL',
+      'Socket.IO',
+      'Linux',
+      'Docker',
+      'Kubernetes',
+      'CI/CD'
+    ]
   }
 ];
